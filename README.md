@@ -56,13 +56,10 @@ To run the project from start to finish:
    cd <repo-name>
    ```
 2. **Open and run each notebook in Colab**:
-   - In Google Colab, open the notebooks in the `scripts/` folder in the order listed below:
-     1. `Dataloader_FeatureExtraction.ipynb`
-     2. `Datapreparation_YOLO.ipynb`
-     3. `mc_dropout.ipynb`
-     4. All `YOLO_*.ipynb` experiments (`YOLO_DH.ipynb`, `YOLO_DH_resnet50.ipynb`, `YOLO_Density.ipynb`, `YOLO_Density_resnet50.ipynb`, `YOLO_MC_Dropout.ipynb`, `YOLO_Random.ipynb`, `YOLO_TTA.ipynb`)
+   - In Google Colab, open the notebooks in the `scripts/` folder in below for different experiments:
+       All `YOLO_*.ipynb` experiments (`YOLO_DH.ipynb`, `YOLO_DH_resnet50.ipynb`, `YOLO_Density.ipynb`, `YOLO_Density_resnet50.ipynb`, `YOLO_MC_Dropout.ipynb`, `YOLO_Random.ipynb`, `YOLO_TTA.ipynb`)
    - Run all cells in each notebook. Required dependencies and data preparation steps are handled within the notebooks.
 
 3. **View results**:
-   - After running an experiment notebook, check the `results/` folder for updated `accuracy_log.csv` and `confusion_matrix.png`.
+   - After running an experiment notebook, check the workspace for `accuracy_log.csv` and `confusion_matrix.png`.
 
