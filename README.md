@@ -50,7 +50,7 @@ To get started:
 
 To run the project from start to finish:
 
-1. **Clone the repository**:
+1. **Clone the repository （Already include in each notebook）**:
    ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
    cd <repo-name>
@@ -65,8 +65,4 @@ To run the project from start to finish:
 
 3. **View results**:
    - After running an experiment notebook, check the `results/` folder for updated `accuracy_log.csv` and `confusion_matrix.png`.
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
 
